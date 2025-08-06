@@ -1,0 +1,144 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#links{
+    height: 38px;
+    background-color: rgb(54, 152, 231);
+    line-height: 38px;
+}
+#text1,#text2,#text3,#text4,#text5{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 21px;
+}
+#text1 {
+    padding-left:620px;
+}
+
+.out1{
+    height: 170px;
+    display: flex;
+}
+#in1,#in2 {
+    height: 170px;
+}
+#in1 {
+    border: solid;
+    width: 170px;
+}
+#in2 {
+    background-color: antiquewhite;
+    width: 1150px;
+    text-align: center;
+}
+#clg{
+    font-size: 41px;
+    color:red;
+}
+#txt {
+    font-size: 32px;
+    font-weight: bold;
+    color: blue;
+}
+#txt1,#txt2,#txt3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+#ugc{
+    background-color: rgb(219, 79, 79);
+    height: 25px;
+    font-size: 18px;
+    color: yellow;
+    font-weight: bold;
+}
+#navbox {
+    height: 50px;
+}
+ul li {
+    margin-left: 3px;
+    height: 50px;
+    width: 156px;
+    float: left;
+    background-color: rgb(35, 35, 215);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+ul li:hover{
+    background-color: orangered;
+}
+.logos{
+    border: solid 1px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+}
+
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 300px;
+}
+#inbox1{
+    width: 500px;
+    background-image: url(pg1.jpg);
+    background-repeat:no-repeat ;
+    background-size: 500px,400px;
+    animation-name: imgchange;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(pg2.jpg);
+    }
+    10%{
+        background-image: url(pg3.jpg);
+    }
+    20%{
+        background-image: url(pg4.jpg);
+    }
+    30%{
+        background-image: url(pg5.jpg);
+    }
+    40%{
+        background-image: url(pg6.jpg);
+    }
+}
+#inbox2,#inbox3{
+    width: 300px;
+    text-align: center;
+}

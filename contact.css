@@ -1,0 +1,43 @@
+body{
+    background-image: url(cr7.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+
+}
+form{
+    border: solid 1px white hidden;
+    width: 550px;
+    padding-left: 10px;
+    margin-left: 100px;
+}
+h1{
+    color: burlywood;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+label{
+    color: beige;
+    font-size: 22px;
+    font-weight: bold;
+}
+input{
+    height: 30px;
+    width: 350px;
+    border-radius: 20px;
+}
+textarea{
+    width: 350px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: violet;
+}
